@@ -1,0 +1,31 @@
+@use './reset';
+@use './global.scss';
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--white);
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    color: var(--fontblack);
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.main{
+    padding-top: var(--firstSection);
+}
+
+.desk{
+    display: flex !important;
+}
+.mob{
+    display: none !important;
+}
+.hidden{
+    overflow: hidden;
+}
