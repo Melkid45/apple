@@ -1,11 +1,13 @@
 .footer {
     width: 100%;
-    padding: 38px 0 54px;
+    padding: 0 0 54px;
 
     &__body {
         display: flex;
         flex-direction: column;
         gap: 70px;
+        border-top: 1px solid var(--border);
+        padding-top: 38px;
 
         &-main {
             display: flex;
@@ -138,6 +140,7 @@
             justify-content: space-between;
             width: 100%;
             align-items: flex-end;
+
             p {
                 font-size: 12px;
                 line-height: 100%;
@@ -148,16 +151,19 @@
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
+
                 p {
                     font-size: 12px;
                     line-height: 100%;
                     font-weight: 400;
                     max-width: 768px;
                 }
-                &-links{
+
+                &-links {
                     display: flex;
                     gap: 8px;
-                    a{
+
+                    a {
                         font-size: 12px;
                         font-weight: 500;
                     }
@@ -166,3 +172,4 @@
         }
     }
 }
+

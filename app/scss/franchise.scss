@@ -1,0 +1,218 @@
+.franchise {
+    width: 100%;
+    background: radial-gradient(37.63% 88.14% at 74.58% 100%, #A96CFF 0%, #7A1CFE 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+
+    &__body {
+        position: relative;
+        padding: 90px 0 110px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        &-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            h1 {
+                font-weight: 600;
+                font-size: 52px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                color: var(--white);
+            }
+
+            p {
+                max-width: 480px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                letter-spacing: 0%;
+                color: var(--white);
+            }
+        }
+
+        a {
+            width: 256px;
+            height: 44px;
+            background: var(--white);
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 120%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        img {
+            position: absolute;
+            height: 100%;
+            right: 0;
+            bottom: 0;
+            object-fit: cover;
+
+        }
+    }
+}
+
+.guarantee {
+    width: 100%;
+    padding-top: var(--paddingSection);
+    padding-bottom: var(--paddingSection);
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+
+        &.maps {
+            .guarantee__body-title {
+                .icon {
+                    padding: 0;
+                    border: none;
+                    border-radius: 0;
+                    display: block;
+                    width: auto;
+                    height: auto;
+                    font-size: 24px;
+                }
+            }
+        }
+
+        &-title {
+            padding: 80px 0px 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .icon {
+                width: 60px;
+                height: 60px;
+                border-radius: 8px;
+                background: var(--white);
+                border: 1px solid #E7EAEF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 40px;
+                letter-spacing: 1%;
+            }
+
+            h2 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                text-align: center;
+
+                span {
+                    color: #891CFE;
+                }
+            }
+
+            .tag {
+                padding: 0px 16px 4px;
+                background: #891CFE;
+                border-radius: 500px;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                text-align: center;
+                color: var(--white);
+            }
+        }
+
+        &-frame {
+            padding: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            background: #F3F4F6;
+            border-radius: 16px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                text-align: center;
+            }
+
+            .guarantee__items {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 16px;
+                width: 100%;
+
+                .guarantee__item {
+                    padding: 32px 20px;
+                    background: var(--white);
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+
+                    span {
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 1%;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        letter-spacing: 0%;
+                    }
+                }
+            }
+        }
+
+        &-franchise {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+            padding: 80px 20px 0px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                text-align: center;
+            }
+
+            .franchise__blocks {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+                width: 100%;
+                &-item {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    iframe{
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        border-radius: 16px;
+                    }
+                    span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        letter-spacing: 0%;
+                    }
+                }
+            }
+        }
+    }
+}

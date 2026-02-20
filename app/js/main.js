@@ -5,62 +5,62 @@ const lenis = new Lenis({
 
 
 if (document.querySelector('.hero')) {
-    let hero = new Splide('.hero-slider', {
-        type: 'loop',
-        perPage: 1,
-        gap: '24px',
-        perMove: 1,
-    }).mount()
+  let hero = new Splide('.hero-slider', {
+    type: 'loop',
+    perPage: 1,
+    gap: '24px',
+    perMove: 1,
+  }).mount()
 }
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const ticker = document.querySelector('#brandsTicker .brands__body-stroke');
+  const ticker = document.querySelector('#brandsTicker .brands__body-stroke');
 
-    const clone = ticker.cloneNode(true);
-    ticker.parentElement.appendChild(clone);
+  const clone = ticker.cloneNode(true);
+  ticker.parentElement.appendChild(clone);
 
-    const speed = 50;
-    let width = ticker.offsetWidth;
+  const speed = 50;
+  let width = ticker.offsetWidth;
 
-    gsap.to('#brandsTicker .brands__body-stroke', {
-        x: -width,
-        duration: width / speed,
-        ease: "linear",
-        repeat: -1
-    });
-    gsap.to('#brandsTicker .brands__body-stroke:nth-child(2)', {
-        x: -width,
-        duration: width / speed,
-        ease: "linear",
-        repeat: -1,
-        delay: width / speed
-    });
+  gsap.to('#brandsTicker .brands__body-stroke', {
+    x: -width,
+    duration: width / speed,
+    ease: "linear",
+    repeat: -1
+  });
+  gsap.to('#brandsTicker .brands__body-stroke:nth-child(2)', {
+    x: -width,
+    duration: width / speed,
+    ease: "linear",
+    repeat: -1,
+    delay: width / speed
+  });
 });
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const tickers = document.querySelectorAll('.search__wrapper-stroke');
-    tickers.forEach((el) => {
-        const clone = el.cloneNode(true);
-        el.parentElement.appendChild(clone);
-        const speed = 20;
-        let width = el.offsetWidth;
-        gsap.to('.search__wrapper-stroke', {
-            x: -width,
-            duration: width / speed,
-            ease: "linear",
-            repeat: -1
-        });
-        gsap.to('.search__wrapper-stroke:nth-child(2)', {
-            x: -width,
-            duration: width / speed,
-            ease: "linear",
-            repeat: -1,
-            delay: width / speed
-        });
-    })
+  const tickers = document.querySelectorAll('.search__wrapper-stroke');
+  tickers.forEach((el) => {
+    const clone = el.cloneNode(true);
+    el.parentElement.appendChild(clone);
+    const speed = 20;
+    let width = el.offsetWidth;
+    gsap.to('.search__wrapper-stroke', {
+      x: -width,
+      duration: width / speed,
+      ease: "linear",
+      repeat: -1
+    });
+    gsap.to('.search__wrapper-stroke:nth-child(2)', {
+      x: -width,
+      duration: width / speed,
+      ease: "linear",
+      repeat: -1,
+      delay: width / speed
+    });
+  })
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -72,9 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const icon = item.querySelector('svg');
 
     header.addEventListener('click', () => {
-    setTimeout(() => {
+      setTimeout(() => {
         lenis.resize();
-    }, 300);
+      }, 300);
       items.forEach(other => {
         if (other !== item) {
           other.classList.remove('active');
@@ -97,3 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+const inputs = document.querySelectorAll("input[type='phone']");
+if (inputs) {
+  inputs.forEach((el) => {
+    window.intlTelInput(el, {
+      loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@26.5.1/build/js/utils.js"),
+      initialCountry: 'ru',
+    });
+  })
+}

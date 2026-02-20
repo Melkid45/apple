@@ -1,0 +1,110 @@
+.request {
+    width: 100%;
+    padding: 60px 0px;
+    position: relative;
+    background: #1F160EBF;
+
+    .container {
+        max-width: 480px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 120%;
+                letter-spacing: -1.5%;
+                color: var(--white);
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0%;
+                color: var(--white);
+            }
+        }
+
+        &-frame {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+
+            .request__inputs {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .request__input {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    label {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        color: var(--white);
+                    }
+                    input{
+                        width: 100%;
+                        height: 44px;
+                        border-radius: 8px;
+                        padding-left: 12px;
+                        font-weight: 500;
+                        font-size: 14px;
+                        background: var(--white);
+                    }
+                }
+            }
+            .request__action{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                button{
+                    width: 100%;
+                    height: 44px;
+                    border-radius: 8px;
+                    background: #891CFE;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--white);
+                    font-size: 14px;
+                    line-height: 120%;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 12px;
+                    color: var(--white);
+                    font-weight: 400;
+                    line-height: 120%;
+                    a{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
