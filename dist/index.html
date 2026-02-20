@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@26.5.1/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@26.5.1/build/css/intlTelInput.css">
     <link rel="stylesheet" href="scss/style.min.css">
     <title>Яблочный путь</title>
 </head>
@@ -111,7 +113,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                             +7 999 123 45 67
                         </a>
                         <a href="">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M13.1846 2.95335C13.3493 2.88401 13.5297 2.86009 13.7068 2.88409C13.8839 2.90809 14.0514 2.97913 14.1917 3.0898C14.3321 3.20048 14.4402 3.34676 14.5048 3.5134C14.5695 3.68005 14.5883 3.86098 14.5593 4.03735L13.0473 13.2087C12.9006 14.0933 11.9299 14.6007 11.1186 14.16C10.4399 13.7913 9.43193 13.2233 8.52526 12.6307C8.07193 12.334 6.68327 11.384 6.85393 10.708C7.0006 10.13 9.33393 7.95801 10.6673 6.66668C11.1906 6.15935 10.9519 5.86668 10.3339 6.33335C8.79926 7.49201 6.33526 9.25401 5.5206 9.75001C4.80193 10.1873 4.42726 10.262 3.97926 10.1873C3.16193 10.0513 2.40393 9.84068 1.78527 9.58401C0.949265 9.23735 0.989932 8.08801 1.7846 7.75335L13.1846 2.95335Z"
                                     fill="#252525" />
@@ -124,141 +127,2858 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
     </header>
     <main class="main">
-        <section class="franchise">
+        <section class="hero">
             <div class="container">
-                <div class="franchise__body">
-                    <img src="images/dist/fran.webp" alt="">
-                    <div class="franchise__body-wrap">
-                        <h1>
-                            Откройте магазин современной <br> техники «Яблочный Путь» <br>
-                            в своём городе
-                        </h1>
+                <div class="hero__body">
+                    <div class="splide hero-slider" role="group" aria-label="Splide Basic HTML Example">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <i data-lucide="chevron-right"></i>
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <i data-lucide="chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="splide__wrapper">
+                                        <h3>
+                                            Интернет-магазин <br>
+                                            техники Apple <br>
+                                            <span>с гарантией и доставкой <br> по всей России</span>
+                                        </h3>
+                                        <a href="">
+                                            В каталог
+                                        </a>
+                                    </div>
+                                    <img src="images/dist/hero.webp" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__wrapper">
+                                        <h3>
+                                            Интернет-магазин <br>
+                                            техники Apple <br>
+                                            <span>с гарантией и доставкой <br> по всей России</span>
+                                        </h3>
+                                        <a href="">
+                                            В каталог
+                                        </a>
+                                    </div>
+                                    <img src="images/dist/hero.webp" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__wrapper">
+                                        <h3>
+                                            Интернет-магазин <br>
+                                            техники Apple <br>
+                                            <span>с гарантией и доставкой <br> по всей России</span>
+                                        </h3>
+                                        <a href="">
+                                            В каталог
+                                        </a>
+                                    </div>
+                                    <img src="images/dist/hero.webp" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <div class="categories__body">
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/1.png" alt="">
+                        <span>iPhone</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/2.png" alt="">
+                        <span>AirPods</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/3.png" alt="">
+                        <span>Watch</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/4.png" alt="">
+                        <span>Macbook</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/5.png" alt="">
+                        <span>iPad</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/6.png" alt="">
+                        <span>VR-очки</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/7.png" alt="">
+                        <span>Marshall</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/8.png" alt="">
+                        <span>Андроид</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/9.png" alt="">
+                        <span>Dyson</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/10.png" alt="">
+                        <span>PlayStation</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/11.png" alt="">
+                        <span>Яндекс Станции</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/12.png" alt="">
+                        <span>Портативные <br>
+                            консоли</span>
+                    </a>
+                    <a href="" class="categoriy__item">
+                        <img src="images/dist/categories/13.png" alt="">
+                        <span>Аксессуары</span>
+                    </a>
+                    <a href="" class="categoriy__item all__cat">
+                        <div class="icon">
+                            <i data-lucide="play"></i>
+                        </div>
+                        <span>Все категории</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Хиты продаж</h2>
+                        <p>Эти гаджеты покупают чаще других</p>
+                    </div>
+                    <div class="hits__body-frame">
+                        <a href="" class="hits__item">
+                            <img src="images/dist/hits/1.png" alt="">
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>104 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    iPhone 17 Pro, 256 Гб, серебристый
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <img src="images/dist/hits/2.png" alt="">
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>104 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    iPhone 17 Pro Max, 256 Гб, серебристый
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <img src="images/dist/hits/3.png" alt="">
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>104 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    iPhone 15, 128 Гб, Черный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <img src="images/dist/hits/4.png" alt="">
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>104 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    iPhone 17, 256 Гб, Лаванда
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <img src="images/dist/hits/5.png" alt="">
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>104 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    iPhone 17 Pro, 256 Гб, Синий
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trends">
+            <div class="container">
+                <div class="trends__body">
+                    <h2>Новинки и тренды</h2>
+                    <div class="trends__body-frame">
+                        <a href="" class="trends__item">
+                            <h3>
+                                iPhone 17 Pro <br>
+                                и iPhone 17 Pro Max
+                            </h3>
+                            <p>от 109 990 ₽</p>
+                            <img src="images/dist/trends/1.png" alt="">
+                        </a>
+                        <a href="" class="trends__item">
+                            <h3>
+                                iPhone 17
+                            </h3>
+                            <p>от 109 990 ₽</p>
+                            <img src="images/dist/trends/2.png" alt="">
+                        </a>
+                        <a href="" class="trends__item">
+                            <h3>
+                                iPad Air
+                            </h3>
+                            <p>от 109 990 ₽</p>
+                            <img src="images/dist/trends/3.png" alt="">
+                        </a>
+                        <a href="" class="trends__item">
+                            <h3>
+                                Macbook <br>
+                                Pro M5
+                            </h3>
+                            <p>от 109 990 ₽</p>
+                            <img src="images/dist/trends/4.png" alt="">
+                        </a>
+                        <a href="" class="trends__item">
+                            <h3>
+                                Watch Ultra 3
+                            </h3>
+                            <p>от 109 990 ₽</p>
+                            <img src="images/dist/trends/5.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container">
+                <div class="brands__body" id="brandsTicker">
+                    <div class="brands__body-stroke">
+                        <a href="" class="brands__item"><img src="images/dist/brands/1.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/2.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/3.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/4.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/5.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/6.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/7.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/8.svg" alt=""></a>
+                        <a href="" class="brands__item"><img src="images/dist/brands/9.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <a href="" class="banner__body">
+                    <img src="images/dist/banner.png" alt="">
+                    <h2>Рассрочка <span>без первого <br> взноса и переплаты</span></h2>
+                    <p>Покупайте сейчас, а платите — потом!</p>
+                </a>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Айфоны</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные</a>
+                            <a href="">iPhone Air</a>
+                            <a href="">iPhone 17 Pro</a>
+                            <a href="">iPhone 16</a>
+                            <a href="">iPhone 16 Pro</a>
+                            <a href="">iPhone 15</a>
+                            <a href="">iPhone 14</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <a href="" class="banner__body solo__title">
+                    <img src="images/dist/banner__two.png" alt="">
+                    <h2>
+                        Дарим аксессуары <br> на <span>10 000 ₽</span> при покупке <br> Айфона
+                    </h2>
+                </a>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Аксессуары для Айфонов</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные</a>
+                            <a href="">Чехлы</a>
+                            <a href="">Зарядники</a>
+                            <a href="">Защитные стекла</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <a href="" class="banner__body full__banner">
+                    <img src="images/dist/banner__three.png" alt="">
+                    <img class="soft__image" src="images/dist/banner__image.png" alt="">
+                    <h2>
+                        Парная покупка
+                    </h2>
+                    <p>Дарим скидку 3000 ₽ при покупке двух iPhone</p>
+                </a>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Техника Dyson</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные модели</a>
+                            <a href="">Стайлеры</a>
+                            <a href="">Фены</a>
+                            <a href="">Пылесосы</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <a href="" class="banner__body full__banner different">
+                    <img src="images/dist/banner__four.png" alt="">
+                    <img class="soft__image" src="images/dist/banner__image2.png" alt="">
+                    <h2>
+                        Бесплатная доставка <br> <span>при заказе от 50 000 ₽</span>
+                    </h2>
+                    <p>Доставляем по городу и по стране!</p>
+                </a>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Macbook</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные модели</a>
+                            <a href="">Macbook Air</a>
+                            <a href="">Macbook Pro</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <a href="" class="banner__body solo__title">
+                    <img src="images/dist/banner__five.png" alt="">
+                    <h2>
+                        Дарим аксессуары <br> <span>на 15 000 ₽</span> при покупке <br> Макбука
+                    </h2>
+                </a>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Яндекс Станции</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные модели</a>
+                            <a href="">Станция Макс</a>
+                            <a href="">Станция Миди</a>
+                            <a href="">Станция Мини 3</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="switch__banner">
+            <div class="container">
+                <div class="switch__banner-body">
+                    <div class="banner">
+                        <a href="" class="banner__body full__banner different">
+                            <img src="images/dist/banner-sw1.png" alt="">
+                            <img class="soft__image" src="images/dist/banner__image-sw1.png" alt="">
+                            <h2>
+                                Гарантия <br>
+                                <span>лучшей цены</span>
+                            </h2>
+                            <p>Снизим цену, если найдёте дешевле</p>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="" class="banner__body">
+                            <img src="images/dist/banner-sw2.png" alt="">
+                            <h2>Скидка <br>
+                                <span>за наличные</span>
+                            </h2>
+                            <p>-20% при оплате наличными</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Геймерам</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные </a>
+                            <a href="">Sony PlayStation</a>
+                            <a href="">Портативные консоли</a>
+                            <a href="">VR</a>
+                            <a href="">Xbox</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hits">
+            <div class="container">
+                <div class="hits__body">
+                    <div class="hits__body-title">
+                        <h2>Меломанам</h2>
+                        <div class="hits__navigation">
+                            <a class="current" href="">Популярные </a>
+                            <a href="">Apple AirPods Pro</a>
+                            <a href="">Marshall</a>
+                            <a href="">Beats</a>
+                            <a href="">AirPods Max</a>
+                        </div>
+                    </div>
+                    <div class="hits__body-frame block__view">
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/1.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>85 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Наушники Apple AirPods Pro 3
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/2.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="gift">
+                                        <i data-lucide="gift"></i>
+                                    </button>
+                                    <button class="hit">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple iPad Pro 2025, 11 дюймов, Wi-Fi, 256 Гб, Чёрный космос
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/3.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple Watch Ultra 3, Титан, Alpine Loop, Светло-голубой
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/4.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>93 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Apple MacBook Air (2025) М4, 13”, 256 Гб, 16 Гб, Тёмная ночь
+                                </p>
+                            </div>
+                        </a>
+                        <a href="" class="hits__item">
+                            <div class="hits__item-top">
+                                <img src="images/dist/block/5.png" alt="">
+                                <button class="favorit" href="">
+                                    <i data-lucide="heart"></i>
+                                </button>
+                                <div class="top__action">
+                                    <button class="hit" href="">
+                                        ХИТ
+                                    </button>
+                                    <button class="new" href="">
+                                        Новинка
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hits__item-wrap">
+                                <div class="hits__item-price">
+                                    <span>9 990 ₽</span>
+                                    <p>104 990 ₽</p>
+                                </div>
+                                <span class="hits__item-part">
+                                    От 2389 ₽/мес
+                                </span>
+                                <p class="hits__item-attr">
+                                    Яндекс Станция Мини 3, Чёрный
+                                </p>
+                            </div>
+                        </a>
+                        <a class="watch__more" href="">
+                            Смотреть все
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="article">
+            <div class="container">
+                <div class="article__body">
+                    <h2>Обзоры и статьи</h2>
+                    <div class="article__body-frame">
+                        <a href="" class="article__item">
+                            <img src="" alt="">
+                            <h3>Обзор iPhone 17</h3>
+                        </a>
+                        <a href="" class="article__item">
+                            <img src="" alt="">
+                            <h3>Как выбрать MacBook</h3>
+                        </a>
+                        <a href="" class="article__item">
+                            <img src="" alt="">
+                            <h3>Как выбрать MacBook</h3>
+                        </a>
+                        <a href="" class="article__item">
+                            <img src="" alt="">
+                            <h3>
+                                Сравнение <br>
+                                AirPods Pro и Max
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search__block">
+            <div class="container">
+                <div class="search__block-body">
+                    <h2>Ищут чаще всего</h2>
+                    <div class="search__block-frame">
+                        <div class="search__wrapper">
+                            <div class="search__wrapper-stroke">
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Купить iPhone 15 Pro Max</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>iPhone в рассрочку</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>AirPods Pro с гарантией</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Доставка техники Apple</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Купить iPhone 15 Pro Max</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="search__wrapper">
+                            <div class="search__wrapper-stroke">
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>MacBook для работы</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Где купить iPhone в Москве</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>iPad с доставкой</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>MacBook для работы</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>iPhone в рассрочку</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="search__wrapper">
+                            <div class="search__wrapper-stroke">
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Оригинальные Apple Watch</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Возврат техники Apple</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>iPhone в рассрочку</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Доставка техники Apple</span>
+                                </a>
+                                <a href="" class="search__item">
+                                    <i data-lucide="search"></i>
+                                    <span>Где купить iPhone в Москве</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__body">
+                    <img class="image" src="images/dist/about.png" alt="">
+                    <div class="about__body-frame">
+                        <h2>О магазине</h2>
                         <p>
-                            Хотите стать частью действующего бизнеса, но при этом оставаться независимым предпринимателем?
-                            Приглашаем вас стать нашим партнёром!
+                            Яблочный Путь — интернет-магазин техники Apple с доставкой по всей России. Только
+                            оригинальные
+                            устройства. Официальная гарантия, удобная оплата, опыт с 2023 года.
                         </p>
                     </div>
-                    <a href="">Стать партнёром</a>
                 </div>
             </div>
         </section>
-        <section class="guarantee">
+        <section class="attributes">
             <div class="container">
-                <div class="guarantee__body">
-                    <div class="guarantee__body-title">
-                        <div class="icon">
-                            💵
-                        </div>
-                        <h2>Мы гарантируем, что вы окупите свои <br> инвестиции, и начнёте зарабатывать </h2>
-                        <span class="tag">меньше, чем через 1 год.</span>
+                <div class="attributes__body">
+                    <div class="attributes__item">
+                        <i data-lucide="badge-check"></i>
+                        <h3>Только оригинальная техника</h3>
                     </div>
-                    <div class="guarantee__body-frame">
-                        <h3>
-                            Почему выгодно работать по франшизе <br> «Яблочный Путь»
-                        </h3>
-                        <div class="guarantee__items">
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Рабочая бизнес-модель с выстроенными процессами по оперативной деятельности и развитию
-                                    компании</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Обучающие материалы по продажам, а также найму, адаптации и контролю сотрудников</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Рекомендации по работе с проверенными подрядчиками</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Инструменты по привлечению и удержанию клиентов</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Список проверенных поставщиков товаров</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Готовый брендинг: миссия, позиционирование, макеты полиграфии, шаблоны для соцсетей</p>
-                            </div>
-                            <div class="guarantee__item">
-                                <span>✅</span>
-                                <p>Консультации от партнёров с действующими франшизами, которые заинтересованы в общем успехе
-                                    компании</p>
-                            </div>
-                        </div>
+                    <div class="attributes__item">
+                        <i data-lucide="shield"></i>
+                        <h3>Гарантия до 12 месяцев</h3>
+                    </div>
+                    <div class="attributes__item">
+                        <i data-lucide="smartphone"></i>
+                        <h3>Проверка при получении</h3>
+                    </div>
+                    <div class="attributes__item">
+                        <i data-lucide="package"></i>
+                        <h3>Возврат в течение 14 дней</h3>
+                    </div>
+                    <div class="attributes__item">
+                        <i data-lucide="award"></i>
+                        <h3>Работаем с 2023 года</h3>
+                    </div>
+                    <div class="attributes__item">
+                        <i data-lucide="headset"></i>
+                        <h3>Консультации и поддержка</h3>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="guarantee">
+        <section class="address">
             <div class="container">
-                <div class="guarantee__body maps">
-                    <div class="guarantee__body-title">
-                        <div class="icon">
-                            💊❌
+                <div class="address__body">
+                    <h2>Адреса магазинов</h2>
+                    <div class="address__body-frame">
+                        <div class="address__item">
+                            <h3>Новосибирск</h3>
+                            <div class="address__item-frame">
+                                <div class="frame-item">
+                                    <h4>ул. Ипподромская 46, «ТЦ Атриум», 1 этаж</h4>
+                                    <p>9:00–21:00, без выходных</p>
+                                </div>
+                                <div class="frame-item">
+                                    <h4>ул. Проспект Дзержинского 2/2, «ТЦ Роща»</h4>
+                                    <p>9:00–21:00, без выходных</p>
+                                </div>
+                                <div class="frame-item">
+                                    <h4>ул. Ватутина 107, «ТРЦ МЕГА», 1 этаж
+                                        (возле входа в магазин «Ашан»)</h4>
+                                    <p>9:00–21:00, без выходных</p>
+                                </div>
+                            </div>
                         </div>
-                        <h2>
-                            Мы не продаём волшебную таблетку, <br> мы предлагаем <span>чёткий алгоритм работы</span>, <br>
-                            выполнение которого точно
-                            приведёт вас <br> <span>к получению прибыли</span>.
-                        </h2>
-                    </div>
-                    <div class="guarantee__body-franchise">
-                        <h3>Действующие франчайзи</h3>
-                        <div class="franchise__blocks">
-                            <div class="franchise__blocks-item">
-                                <iframe
-                                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7c4532ad13d1fe8da7f1b9fd85db642b38be54e58d3e39d6c3fad152bcc1d43&amp;source=constructor"
-                                    width="100%" frameborder="0"></iframe>
-                                <span>3 торговые точки в Новосибирске</span>
-                            </div>
-                            <div class="franchise__blocks-item">
-                                <iframe
-                                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7c4532ad13d1fe8da7f1b9fd85db642b38be54e58d3e39d6c3fad152bcc1d43&amp;source=constructor"
-                                    width="100%" frameborder="0"></iframe>
-                                <span>1 торговая точка в Бердске</span>
-                            </div>
-                            <div class="franchise__blocks-item">
-                                <iframe
-                                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7c4532ad13d1fe8da7f1b9fd85db642b38be54e58d3e39d6c3fad152bcc1d43&amp;source=constructor"
-                                    width="100%" frameborder="0"></iframe>
-                                <span>1 торговая точка в Иркутске</span>
+                        <div class="address__item">
+                            <h3>Бердск</h3>
+                            <div class="address__item-frame">
+                                <div class="frame-item">
+                                    <h4>ул. Ленина, 33</h4>
+                                    <p>10:00–21:00, без выходных</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7c4532ad13d1fe8da7f1b9fd85db642b38be54e58d3e39d6c3fad152bcc1d43&amp;source=constructor"
+                        width="100%" frameborder="0"></iframe>
                 </div>
             </div>
         </section>
-        <section class="request">
-            <img src="images/dist/request.webp" alt="">
+        <section class="faq">
             <div class="container">
-                <div class="request__body">
-                    <div class="request__body-title">
-                        <h2>Нам по пути!</h2>
-                        <p>Заполните форму и получите коммерческое предложение</p>
-                    </div>
-                    <div class="request__body-frame">
-                        <div class="request__inputs">
-                            <div class="request__input">
-                                <label for="">Ваше имя</label>
-                                <input placeholder="Иванов Иван" type="text">
-                            </div>
-                            <div class="request__input">
-                                <label for="">Телефон</label>
-                                <input type="phone">
-                            </div>
-                            <div class="request__input">
-                                <label for="">Город, в котором планируется открытие магазина</label>
-                                <input placeholder="Иванов Иван" type="text">
-                            </div>
+                <div class="faq__body">
+                    <div class="faq__item">
+                        <div class="faq__item-top">
+                            <h3>Есть ли гарантия?</h3>
+                            <i data-lucide="plus"></i>
                         </div>
-                        <div class="request__action">
-                            <button>
-                                Получить коммерческое предложение
-                            </button>
-                            <p>Оставляя заявку, вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+                        <div class="faq__item-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam velit nemo
+                                eos, aut,
+                                iusto nam sit veniam sunt dolorem voluptates facilis dolore perspiciatis architecto iure
+                                quod?
+                                Debitis, ipsum sapiente?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__item-top">
+                            <h3>Как работает доставка?</h3>
+                            <i data-lucide="plus"></i>
+                        </div>
+                        <div class="faq__item-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam velit nemo
+                                eos, aut,
+                                iusto nam sit veniam sunt dolorem voluptates facilis dolore perspiciatis architecto iure
+                                quod?
+                                Debitis, ipsum sapiente?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__item-top">
+                            <h3>Как вернуть товар?</h3>
+                            <i data-lucide="plus"></i>
+                        </div>
+                        <div class="faq__item-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam velit nemo
+                                eos, aut,
+                                iusto nam sit veniam sunt dolorem voluptates facilis dolore perspiciatis architecto iure
+                                quod?
+                                Debitis, ipsum sapiente?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__item-top">
+                            <h3>Это оригинал?</h3>
+                            <i data-lucide="plus"></i>
+                        </div>
+                        <div class="faq__item-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam velit nemo
+                                eos, aut,
+                                iusto nam sit veniam sunt dolorem voluptates facilis dolore perspiciatis architecto iure
+                                quod?
+                                Debitis, ipsum sapiente?
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -296,8 +3016,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                             x="8" y="11" width="26" height="20">
                                             <path
                                                 d="M21 12.4453C32 12.4453 32 12.4453 32 21.0009C32 29.5564 32 29.5564 21 29.5564C10 29.5564 10 29.5564 10 21.0009C10 12.4453 10 12.4453 21 12.4453Z"
-                                                fill="white" stroke="white" stroke-width="2.44444" stroke-linecap="round"
-                                                stroke-linejoin="round" />
+                                                fill="white" stroke="white" stroke-width="2.44444"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M18.5556 16.7227L25.8889 21.0004L18.5556 25.2782V16.7227Z"
                                                 fill="black" />
                                         </mask>
@@ -584,7 +3304,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </p>
                     <div class="soft__wrapper">
                         <p>
-                            Фирма-производитель оставляет за собой право на внесение изменений в программное обеспечение,
+                            Фирма-производитель оставляет за собой право на внесение изменений в программное
+                            обеспечение,
                             дизайн и комплектацию приборов без предварительного уведомления. Во избежание недоразумений
                             при покупке техники уточняйте информацию о комплектации, наличию и цене у продавцов.
                             Вся информация на сайте носит справочный характер и не является публичной офертой.
@@ -609,7 +3330,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     <script>
         lucide.createIcons();
     </script>
-    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script> 
+    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@26.5.1/build/js/intlTelInput.min.js"></script>
